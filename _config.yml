@@ -1,15 +1,15 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
-baseurl:     ""
-url:         "http://pixyll.com"
-date_format: "%b %-d, %Y"
+title:       Coronavirus Report
+email:       cam-o-man@live.com
+author:      Connor McDermid
+description: "Everything you need to know about the coronavirus, COVID-19, SARS-CoV2, and more."
+baseurl:     "/covreport"
+url:         "https://connormcdermid.github.io"
+date_format: "%Y-%m-%d"
 header_pages:
  - about.md
  - contact.html
-
+future: true
 # Google services
 google_verification:
 # Use either direct GA implementation or set up GTM account
@@ -114,8 +114,7 @@ text:
 markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    pretty
-paginate:     4
+paginate:     5
 sass:
   style: compressed
 plugins:

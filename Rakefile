@@ -52,7 +52,7 @@ task :draft, :title do |t, args|
   end
 
 # Uncomment the line below if you want the draft to automatically open in your default text editor
-# system ("#{ENV['EDITOR']} #{filename}")
+system ("#{ENV['EDITOR']} #{filename}")
 end
 
 desc 'preview the site with drafts'
